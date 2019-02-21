@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    int a[n+1],k=0;// sorry for static array as i m implementing it 
+    int a[n+1],k=0;// n+1 for including the values of n
     for(auto i=2;i<=n;i++){
         a[i]=i; 
     }
