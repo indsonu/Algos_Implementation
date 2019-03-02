@@ -7,7 +7,7 @@ void findSubsequence(string mainString,int n,string currentString,int index){
         return ;
     }
     if(currentString!="")
-    cout<<currentString<<endl;
+    cout<<currentString<<endl;// i didnt include ((" ")) this subsequence;
     for(auto i=index+1;i<n;i++){
         currentString+=mainString[i];
         findSubsequence(mainString,n,currentString,i);
