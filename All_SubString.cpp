@@ -1,3 +1,6 @@
+//Loop Method
+//No. of Substring which are possible :n(n+1)/2
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
