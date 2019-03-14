@@ -17,9 +17,9 @@ while(t--)
         { 
         if(s[i][j]=='a'){a[0]=1;}
         else if(s[i][j]=='e'){a[1]=1;}
-        else if(s[i][j]=='i'){a[2]=1;}
-        else if(s[i][j]=='o'){a[3]=1;}
-        else if(s[i][j]=='u'){a[4]=1;} 
+        else if(s[i][j]=='i'){a[2]=1;}                       //                    1   0   1   0    1
+        else if(s[i][j]=='o'){a[3]=1;}                       //                    0   1   0   1    0       OR of these 2 is:
+        else if(s[i][j]=='u'){a[4]=1;}                       //                    1   1   1   1    1 
         }
         d=a[0]*1+a[1]*2+a[2]*4+a[3]*8+a[4]*16;
         b[d]++;
